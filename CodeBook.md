@@ -1,4 +1,16 @@
-# TinyMotion.txt data set contains the following variables: #
+
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals Time Accelerometer X, X and Z axis and Time Gyroscope  X, X and Z axis. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+
+Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals 
+Finally the Mean and Standard Deviation were estimated from these signaled and were pulled into this data set. These Mean and Standard Deviation variables were then averaged for each subject and activity combination to produce this data set. 
+
+
+
+
+**TinyMotion.txt data set contains the following variables: **
 
 
 
